@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/funit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/shifter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/myALU.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/arith.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/rfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/cpu_dp.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/cpu_cont.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/rca.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/FA1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/MM.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/cwrom.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/clk_1k.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/cpu16.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/CPU.v}
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/db {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/db/clk_1k_altpll.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd {C:/Users/LeeJaeHwa/Documents/qtss/dd/dddd/tb_cpu.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_cpu
+
+add wave *
+view structure
+view signals
+run -all

@@ -1,0 +1,208 @@
+# Reading D:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do CPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v 
+# -- Compiling module funit
+# 
+# Top level modules:
+# 	funit
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v 
+# -- Compiling module myALU
+# 
+# Top level modules:
+# 	myALU
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v 
+# -- Compiling module arith
+# 
+# Top level modules:
+# 	arith
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v 
+# -- Compiling module rfile
+# 
+# Top level modules:
+# 	rfile
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:32 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v 
+# -- Compiling module cpu_dp
+# 
+# Top level modules:
+# 	cpu_dp
+# End time: 20:41:32 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v 
+# -- Compiling module cpu_cont
+# 
+# Top level modules:
+# 	cpu_cont
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v 
+# -- Compiling module FA1
+# 
+# Top level modules:
+# 	FA1
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v 
+# -- Compiling module MM
+# 
+# Top level modules:
+# 	MM
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v 
+# -- Compiling module cwrom
+# 
+# Top level modules:
+# 	cwrom
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v 
+# -- Compiling module clk_1k
+# 
+# Top level modules:
+# 	clk_1k
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v 
+# -- Compiling module cpu16
+# 
+# Top level modules:
+# 	cpu16
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v 
+# -- Compiling module CPU_top
+# 
+# Top level modules:
+# 	CPU_top
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v 
+# -- Compiling module clk_1k_altpll
+# 
+# Top level modules:
+# 	clk_1k_altpll
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU {C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:41:33 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU" C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v 
+# -- Compiling module tb_cpu
+# 
+# Top level modules:
+# 	tb_cpu
+# End time: 20:41:33 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_cpu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_cpu 
+# Start time: 20:41:34 on Dec 13,2020
+# Loading work.tb_cpu
+# Loading work.cpu16
+# Loading work.cpu_dp
+# Loading work.funit
+# Loading work.myALU
+# Loading work.arith
+# Loading work.rca
+# Loading work.shifter
+# Loading work.rfile
+# Loading work.cpu_cont
+# Loading work.cwrom
+# Loading altera_mf_ver.altsyncram
+# Loading work.MM
+# Loading work.FA1
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v(24): [PCDPC] - Port size (16) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/TEST/U0 File: C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v(24)
+#    Time: 500150 ns  Iteration: 0  Instance: /tb_cpu
+# Break in Module tb_cpu at C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v line 24
+# End time: 20:42:18 on Dec 13,2020, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 1

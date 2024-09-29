@@ -1,0 +1,366 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/simulation/modelsim
+varith
+Z1 !s110 1607859692
+!i10b 1
+!s100 I0XUI3;e8hZB`J>0FkBG@1
+IzZEGoF1R0@589M;AfjgRN2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604307252
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1607859692.000000
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/arith.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU
+Z7 tCvgOpt 0
+vclk_1k
+Z8 !s110 1607859693
+!i10b 1
+!s100 P4NSmQKcS7=P12RCn52WT0
+I^86:mb38=TAmkY:]Q6HdN3
+R2
+R0
+w1605676680
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v
+Z9 L0 40
+R3
+r1
+!s85 0
+31
+Z10 !s108 1607859693.000000
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/clk_1k.v|
+!i113 1
+R5
+R6
+R7
+vclk_1k_altpll
+R8
+!i10b 1
+!s100 MGD4TI[jjCkRNG94lYObM0
+I@F;DFQn;l3<4eFZT<YX8j2
+R2
+R0
+w1607247591
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db/clk_1k_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/db
+R7
+vcpu16
+R8
+!i10b 1
+!s100 _mjW095Z6:90cbXQVRmRO3
+I@3hUM3Weh@AFi;akY:]=41
+R2
+R0
+w1607796370
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu16.v|
+!i113 1
+R5
+R6
+R7
+vcpu_cont
+R8
+!i10b 1
+!s100 []FH3Q4m9VI_ZBfRkZ2Ll1
+IzeTe3=5W=ANC6]Ch3KDE71
+R2
+R0
+w1607846960
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_cont.v|
+!i113 1
+R5
+R6
+R7
+vcpu_dp
+R1
+!i10b 1
+!s100 @z3^bczoL]j_<<eo[za8`0
+I>B3C]:Ii?=`CYh<K3hzh>1
+R2
+R0
+w1607796011
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cpu_dp.v|
+!i113 1
+R5
+R6
+R7
+vCPU_top
+R8
+!i10b 1
+!s100 kFZQQGZ`IZaJiSGUcmRFg0
+Inic_[BJc9YLhTWMdzP5ES0
+R2
+R0
+w1607859559
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/CPU_top.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u_top
+vcwrom
+R8
+!i10b 1
+!s100 VIWO;<8U<]o;iC_OjZ:A=3
+IT`j6oNn;MoaA2l<df4`L10
+R2
+R0
+w1606899492
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/cwrom.v|
+!i113 1
+R5
+R6
+R7
+vFA1
+R8
+!i10b 1
+!s100 hc0Ml37SAGmMb2<gcaCSD1
+IDb`R`nQTNoa^f9H56BTTY1
+R2
+R0
+w1605018281
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/FA1.v|
+!i113 1
+R5
+R6
+R7
+n@f@a1
+vfunit
+R1
+!i10b 1
+!s100 WDQKUC]I@b60:le7ea8U_0
+Ifjj1kez8BzOCjh4j0=`MO0
+R2
+R0
+w1607245949
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/funit.v|
+!i113 1
+R5
+R6
+R7
+vMM
+R8
+!i10b 1
+!s100 BEfY;g2hVSRg:0N]a=;0F3
+I5=[9OK`340j2@;:0a:iOX1
+R2
+R0
+w1606898110
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/MM.v|
+!i113 1
+R5
+R6
+R7
+n@m@m
+vmyALU
+R1
+!i10b 1
+!s100 GY?`@LLBee8G>GaBHm^=b0
+I_V3mh_XB:MC[[[nJ@01j=1
+R2
+R0
+w1607245977
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/myALU.v|
+!i113 1
+R5
+R6
+R7
+nmy@a@l@u
+vrca
+R8
+!i10b 1
+!s100 BgVCzKPJhgdi2lM5ZcR;D1
+ILJRUji8DifhChC5DgIg9g1
+R2
+R0
+w1605100606
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rca.v|
+!i113 1
+R5
+R6
+R7
+vrfile
+R1
+!i10b 1
+!s100 ?PzRAo5zPEQn9Nk^KXId^2
+I1^FTO9@=01Xf=[mV=7z4f0
+R2
+R0
+w1607795991
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/rfile.v|
+!i113 1
+R5
+R6
+R7
+vshifter
+R1
+!i10b 1
+!s100 S1J7EZP0<Q`]ROho4:X2<2
+Ig?]N0BMH6MiSUcSXD=VPC1
+R2
+R0
+w1607247902
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/shifter.v|
+!i113 1
+R5
+R6
+R7
+vtb_cpu
+R8
+!i10b 1
+!s100 0X:`T`H?OF:zTgA8ZP^P?1
+IJ[1n;[8MYnMe>2P6C<_la1
+R2
+R0
+w1607804214
+8C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v
+FC:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU|C:/Users/LeeJaeHwa/Documents/qtss/dd/CPU/tb_cpu.v|
+!i113 1
+R5
+R6
+R7
